@@ -21,7 +21,7 @@
 
 /* Header */
 header{
-    background-color: #212343;
+    background-color: #abadca;
     padding: 10px 0;
 }
 /* Fim Header */
@@ -113,7 +113,7 @@ form input[type=submit]:hover{
 /* Sessao02 */
 .sessao02{
     text-align: center;
-    background-color: #ddd;
+    background-color: #abadca;
 }
 
 .sessao02 h2{
@@ -126,7 +126,6 @@ form input[type=submit]:hover{
     width: 100%;
     text-align: justify;
     display: inline-block;
-    color: gray;
 }
 
 .sessao02 img{
