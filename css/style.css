@@ -1,0 +1,240 @@
+/* Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.contexto{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear: both;
+}
+/* Fim gerais */
+
+
+/* Header */
+header{
+    background-color: #212343;
+    padding: 10px 0;
+}
+/* Fim Header */
+
+
+/* Sessao01 */
+.sessao01{
+    display: inline-block;
+    width: 100%;
+    height: 550px;
+    background-image: url('../img/header_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sessao01 .box{
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    margin-top: 100px;
+    background-color: #212343b2;
+    padding: 50px;
+}
+
+.sessao01 .box ul{
+    list-style-position: inside;
+}
+
+.sessao01 .box ul li{
+    color: white;
+    margin-bottom: 20px;
+}
+
+form{
+    max-width: 400px;
+    width: 100%;
+    height: 600px;
+    margin-top: -25px;
+    background-color: white;
+    float: right;
+    border: 10px solid rgba(204, 204, 204, 0.416);
+    padding: 10px;
+    background-clip: padding-box;
+}
+
+form h2{
+    color: #bbb;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+}
+
+form p{
+    color: #bbb;
+    margin-top: 30px;
+}
+
+form input[type=text],form input[type=email]{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+form input[type=submit]{
+    width: 70%;
+    padding: 15px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    background-color: #363a6d;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 5px solid #2d305b ;
+}
+
+form input[type=submit]:hover{
+    background-color: #323462;
+}
+/* Fim Sessao01 */
+
+
+/* Sessao02 */
+.sessao02{
+    text-align: center;
+    background-color: #ddd;
+}
+
+.sessao02 h2{
+    font-weight: normal;
+    padding: 30px 0;
+}
+
+.sessao02 p{
+    max-width: 700px;
+    width: 100%;
+    text-align: justify;
+    display: inline-block;
+    color: gray;
+}
+
+.sessao02 img{
+    width: 40px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+/* Fim sessao02 */
+
+
+/* Sessao03 */
+
+.sessao03{
+    padding: 80px 0;
+}
+
+.sessao03 h2{
+    text-align: center;
+    font-weight: normal;
+    color: #472663;
+    margin-bottom: 80px;
+}
+
+.sessao03 .container-item{
+    display: flex;
+}
+
+.sessao03 .container-item .wraper-item{
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.sessao03 .wraper-item h3{
+    margin: 20px 0;
+}
+
+.sessao03 .wraper-item p{
+    text-align: justify;
+}
+/* Fim Sessao03 */
+
+
+/* Footer */
+footer{
+    border-top: 3px solid gray;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p,footer address{
+    color: gray;
+    margin: 7px 0;
+}
+/* fim footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+@media screen and (max-width:1100px){
+    .sessao01{
+        height: auto;
+    }
+
+    .sessao01 .box{
+        display: block;
+        margin: 30px auto;
+    }
+    
+    form{
+        float: none;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .sessao03 .container-item{
+        display: block;
+    }
+
+    .sessao03 .container-item .wraper-item{
+        width: 50%;
+        margin-top: 20px;
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
+
+@media screen and (max-width:667px){
+    .sessao03 .container-item .wraper-item{
+        width: 100%;
+    }
+}
+/* Fim Media queries */
+
+
